@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Lean Theory</title>
+<meta name="description" content="Articles on fitness, diet, and health, sorted by category.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!-- ============================================================
+     Google AdSense
+     1. Sign up and get your site approved at https://www.google.com/adsense
+     2. Replace ca-pub-0000000000000000 below with your publisher ID
+     3. Remove the surrounding comment markers (<!-- and -->) to activate
+     ============================================================ -->
+<!--
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0000000000000000" crossorigin="anonymous"></script>
+-->
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html">Lean Theory <small>THE JOURNAL</small></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html" aria-current="page">Blog</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="programs.html">Programs</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow">The Archive</span>
+      <h1>Blog</h1>
+      <p class="lede">Every article we've published, sorted by topic. Filter to find what you're looking for — or just browse.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="filter-bar">
+        <button class="is-active" data-filter="all">All</button>
+        <button data-filter="fitness">Fitness</button>
+        <button data-filter="diet">Diet</button>
+        <button data-filter="health">Health &amp; Mindset</button>
+      </div>
+
+      <div class="card-grid">
+
+        <article class="card" data-category="fitness">
+          <div class="card-thumb">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a runner">
+              <rect width="400" height="300" fill="#E7EDE6"/>
+              <g stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(120,60) scale(2.2)">
+                <circle cx="62" cy="18" r="8"/>
+                <path d="M62 26 L46 50 L62 64 L52 90"/>
+                <path d="M46 50 L78 40"/>
+                <path d="M62 64 L82 80"/>
+              </g>
+              <circle cx="350" cy="50" r="14" fill="#FF5A36"/>
+            </svg>
+          </div>
+          <span class="tag tag--moss">Fitness</span>
+          <h3><a href="post.html">Does it matter when you eat protein? We read 40 studies so you don't have to</a></h3>
+          <p>Anabolic windows, post-workout shakes, timed meals — what the research actually supports.</p>
+          <div class="card-meta"><span>Fitness</span><span>·</span><span>12 min</span></div>
+        </article>
+
+        <article class="card" data-category="diet">
+          <div class="card-thumb card-thumb--sand">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a bowl of food">
+              <rect width="400" height="300" fill="#FBEACB"/>
+              <g stroke="#2F4F3E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(110,55) scale(2.4)">
+                <path d="M15 52 a35 35 0 0 0 70 0 Z"/>
+                <path d="M40 25 q5 -8 0 -15"/>
+                <path d="M55 25 q5 -8 0 -15"/>
+              </g>
+              <circle cx="70" cy="65" r="6" fill="#FF5A36" stroke="none"/>
+            </svg>
+          </div>
+          <span class="tag tag--citrus">Diet</span>
+          <h3><a href="post.html">The Mediterranean diet, revisited: what 20 years of research actually shows</a></h3>
+          <p>The most-studied eating pattern in nutrition science, and the most misquoted.</p>
+          <div class="card-meta"><span>Diet</span><span>·</span><span>11 min</span></div>
+        </article>
+
+        <article class="card" data-category="health">
+          <div class="card-thumb card-thumb--citrus">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a heart rate line">
+              <rect width="400" height="300" fill="#FFE2D6"/>
+              <polyline points="40,160 130,160 170,80 230,250 280,160 360,160" stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="tag tag--sand">Health</span>
+          <h3><a href="post.html">Sleep debt and appetite: the hormone connection nobody told you about</a></h3>
+          <p>Two hormones, one bad night's sleep, and why you're hungrier the next day.</p>
+          <div class="card-meta"><span>Health</span><span>·</span><span>6 min</span></div>
+        </article>
+
+        <article class="card" data-category="diet">
+          <div class="card-thumb">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a water drop">
+              <rect width="400" height="300" fill="#E7EDE6"/>
+              <path d="M200 70 C260 150 280 195 280 230 C280 282 245 314 200 314 C155 314 120 282 120 230 C120 195 140 150 200 70 Z" stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="tag tag--citrus">Diet</span>
+          <h3><a href="post.html">Meal prep for beginners: a no-stress Sunday system</a></h3>
+          <p>Four containers, ninety minutes, and a week of lunches that don't taste like leftovers.</p>
+          <div class="card-meta"><span>Diet</span><span>·</span><span>7 min</span></div>
+        </article>
+
+        <article class="card" data-category="fitness">
+          <div class="card-thumb card-thumb--sand">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a dumbbell">
+              <rect width="400" height="300" fill="#FBEACB"/>
+              <g stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(80,90) scale(2.3)">
+                <line x1="20" y1="50" x2="80" y2="50"/>
+                <circle cx="15" cy="50" r="12"/>
+                <circle cx="85" cy="50" r="12"/>
+                <line x1="35" y1="38" x2="35" y2="62"/>
+                <line x1="65" y1="38" x2="65" y2="62"/>
+              </g>
+            </svg>
+          </div>
+          <span class="tag tag--moss">Fitness</span>
+          <h3><a href="post.html">Progressive overload for people who hate spreadsheets</a></h3>
+          <p>A simple way to keep getting stronger without logging every set.</p>
+          <div class="card-meta"><span>Fitness</span><span>·</span><span>6 min</span></div>
+        </article>
+
+        <article class="card" data-category="diet">
+          <div class="card-thumb card-thumb--citrus">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a kitchen scale">
+              <rect width="400" height="300" fill="#FFE2D6"/>
+              <g stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(90,70) scale(2.3)">
+                <rect x="18" y="58" width="64" height="28" rx="4"/>
+                <circle cx="50" cy="40" r="18"/>
+                <line x1="50" y1="40" x2="58" y2="30"/>
+              </g>
+            </svg>
+          </div>
+          <span class="tag tag--citrus">Diet</span>
+          <h3><a href="post.html">Do you actually need to track calories? A flowchart</a></h3>
+          <p>For some people tracking is freeing. For others, it backfires.</p>
+          <div class="card-meta"><span>Diet</span><span>·</span><span>9 min</span></div>
+        </article>
+
+        <div class="ad-slot ad-slot--inline">Advertisement</div>
+
+        <article class="card" data-category="health">
+          <div class="card-thumb">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a stretching figure">
+              <rect width="400" height="300" fill="#E7EDE6"/>
+              <g stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(150,50) scale(2.3)">
+                <circle cx="50" cy="22" r="8"/>
+                <path d="M50 30 L50 55 M50 55 L30 75 M50 55 L70 40 M50 70 L65 90 M50 70 L35 90"/>
+              </g>
+            </svg>
+          </div>
+          <span class="tag tag--sand">Health</span>
+          <h3><a href="post.html">Five minutes of mobility, every morning: a starter routine</a></h3>
+          <p>No equipment, no studio, no excuses — just a short routine to undo a day spent sitting.</p>
+          <div class="card-meta"><span>Health</span><span>·</span><span>4 min</span></div>
+        </article>
+
+        <article class="card" data-category="fitness">
+          <div class="card-thumb card-thumb--sand">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a leaf">
+              <rect width="400" height="300" fill="#FBEACB"/>
+              <g stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(130,40) scale(2.3)">
+                <path d="M50 90 C20 70 10 30 50 10 C90 30 80 70 50 90 Z"/>
+                <path d="M50 88 L50 14"/>
+              </g>
+              <circle cx="60" cy="240" r="14" fill="#FF5A36"/>
+            </svg>
+          </div>
+          <span class="tag tag--moss">Fitness</span>
+          <h3><a href="post.html">Recovery days aren't lazy days: what your body is doing on rest</a></h3>
+          <p>The unglamorous half of every training plan, and why skipping it slows you down.</p>
+          <div class="card-meta"><span>Fitness</span><span>·</span><span>7 min</span></div>
+        </article>
+
+        <article class="card" data-category="diet">
+          <div class="card-thumb">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of an apple">
+              <rect width="400" height="300" fill="#E7EDE6"/>
+              <g stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(100,60) scale(2.3)">
+                <path d="M50 28 C30 28 18 45 18 62 C18 80 32 92 50 92 C68 92 82 80 82 62 C82 45 70 28 50 28 Z"/>
+                <path d="M50 28 C50 18 58 14 66 16"/>
+              </g>
+              <circle cx="60" cy="40" r="10" fill="#2F4F3E" opacity="0.12" stroke="none"/>
+            </svg>
+          </div>
+          <span class="tag tag--citrus">Diet</span>
+          <h3><a href="post.html">Sugar, explained without the scare tactics</a></h3>
+          <p>What added sugar actually does in the body, and where the real risk lives.</p>
+          <div class="card-meta"><span>Diet</span><span>·</span><span>10 min</span></div>
+        </article>
+
+        <article class="card" data-category="health">
+          <div class="card-thumb card-thumb--citrus">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a blender">
+              <rect width="400" height="300" fill="#FFE2D6"/>
+              <g stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(130,50) scale(2.3)">
+                <path d="M32 28 L68 28 L60 88 L40 88 Z"/>
+                <line x1="28" y1="28" x2="72" y2="28"/>
+                <line x1="42" y1="44" x2="58" y2="44"/>
+                <line x1="44" y1="58" x2="56" y2="58"/>
+              </g>
+            </svg>
+          </div>
+          <span class="tag tag--sand">Health</span>
+          <h3><a href="post.html">Hydration myths: how much water do you really need?</a></h3>
+          <p>The eight-glasses rule, fact-checked against what your kidneys actually do.</p>
+          <div class="card-meta"><span>Health</span><span>·</span><span>5 min</span></div>
+        </article>
+
+        <article class="card" data-category="fitness">
+          <div class="card-thumb card-thumb--sand">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a timer">
+              <rect width="400" height="300" fill="#FBEACB"/>
+              <g stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(110,60) scale(2.3)">
+                <circle cx="50" cy="55" r="35"/>
+                <line x1="50" y1="55" x2="50" y2="32"/>
+                <line x1="50" y1="55" x2="68" y2="62"/>
+                <line x1="38" y1="14" x2="62" y2="14"/>
+              </g>
+            </svg>
+          </div>
+          <span class="tag tag--moss">Fitness</span>
+          <h3><a href="post.html">The 20-minute workout: what actually fits in, and what doesn't</a></h3>
+          <p>If you only have twenty minutes, here's how to spend them for the best return.</p>
+          <div class="card-meta"><span>Fitness</span><span>·</span><span>6 min</span></div>
+        </article>
+
+        <article class="card" data-category="health">
+          <div class="card-thumb">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a leaf with a heart">
+              <rect width="400" height="300" fill="#E7EDE6"/>
+              <g stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(130,50) scale(2.3)">
+                <path d="M50 88 C25 70 15 40 32 22 C42 12 50 22 50 30 C50 22 58 12 68 22 C85 40 75 70 50 88 Z"/>
+              </g>
+              <circle cx="320" cy="60" r="14" fill="#F4C460"/>
+            </svg>
+          </div>
+          <span class="tag tag--sand">Health</span>
+          <h3><a href="post.html">What "stress eating" is actually about, according to the research</a></h3>
+          <p>It's rarely about willpower. Here's the more useful way to think about it.</p>
+          <div class="card-meta"><span>Health</span><span>·</span><span>8 min</span></div>
+        </article>
+
+        <article class="card" data-category="fitness">
+          <div class="card-thumb card-thumb--sand">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a dumbbell and a spotlight">
+              <rect width="400" height="300" fill="#FBEACB"/>
+              <g stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(85,100) scale(2.2)">
+                <line x1="20" y1="50" x2="80" y2="50"/>
+                <circle cx="15" cy="50" r="12"/>
+                <circle cx="85" cy="50" r="12"/>
+                <line x1="35" y1="38" x2="35" y2="62"/>
+                <line x1="65" y1="38" x2="65" y2="62"/>
+              </g>
+              <g stroke="#2F4F3E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(250,40) scale(1.8)">
+                <path d="M30 70 L50 10 L70 70 Z"/>
+              </g>
+              <circle cx="350" cy="50" r="14" fill="#FF5A36"/>
+            </svg>
+          </div>
+          <span class="tag tag--moss">Fitness</span>
+          <h3><a href="post-2.html">What's the secret behind Salman Khan and John Abraham's fitness?</a></h3>
+          <p>We looked past the recycled "secret routine" articles at what's actually reported — and what's realistic to copy.</p>
+          <div class="card-meta"><span>Fitness</span><span>·</span><span>9 min</span></div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">Lean Theory <small>THE JOURNAL</small></a>
+        <p style="margin-top:1rem; color:#B9C4BA; max-width:28ch;">Evidence-based notes on food, fitness, and feeling good — written for people, not algorithms.</p>
+      </div>
+      <div>
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="programs.html">Programs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Topics</h4>
+        <ul>
+          <li><a href="blog.html">Fitness</a></li>
+          <li><a href="blog.html">Diet</a></li>
+          <li><a href="blog.html">Health &amp; Mindset</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Lean Theory. All values approximate.</span>
+      <span><a href="privacy-policy.html">Privacy Policy</a> · Not medical advice — talk to a professional about your own situation.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

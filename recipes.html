@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipes — Lean Theory</title>
+<meta name="description" content="Recipes with the numbers up front: calories, protein, time, and servings for every dish.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!-- ============================================================
+     Google AdSense
+     1. Sign up and get your site approved at https://www.google.com/adsense
+     2. Replace ca-pub-0000000000000000 below with your publisher ID
+     3. Remove the surrounding comment markers (<!-- and -->) to activate
+     ============================================================ -->
+<!--
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0000000000000000" crossorigin="anonymous"></script>
+-->
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html">Lean Theory <small>THE JOURNAL</small></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="recipes.html" aria-current="page">Recipes</a></li>
+      <li><a href="programs.html">Programs</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow">The Pantry</span>
+      <h1>Recipes</h1>
+      <p class="lede">Every recipe comes with the numbers up front — calories, protein, time, and servings — so you can decide if it fits your day before you start chopping.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="filter-bar">
+        <button class="is-active" data-filter="all">All</button>
+        <button data-filter="breakfast">Breakfast</button>
+        <button data-filter="lunch-dinner">Lunch &amp; Dinner</button>
+        <button data-filter="snacks">Snacks</button>
+        <button data-filter="drinks">Drinks</button>
+      </div>
+
+      <div class="card-grid">
+
+        <article class="recipe-card" data-category="lunch-dinner">
+          <div class="card-thumb">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a grain bowl">
+              <rect width="400" height="300" fill="#E7EDE6"/>
+              <g stroke="#2F4F3E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(110,70) scale(2.4)">
+                <path d="M15 52 a35 35 0 0 0 70 0 Z"/>
+              </g>
+              <circle cx="180" cy="150" r="8" fill="#FF5A36" stroke="none"/>
+              <circle cx="220" cy="130" r="8" fill="#F4C460" stroke="none"/>
+              <circle cx="200" cy="170" r="8" fill="#2F4F3E" stroke="none"/>
+            </svg>
+          </div>
+          <div class="recipe-card__body">
+            <span class="tag tag--moss">High-protein</span>
+            <h3 style="font-size:1.1rem;"><a href="#">Lemon-herb chicken grain bowl</a></h3>
+            <p style="font-size:0.92rem;color:var(--ink-soft);">Bright, balanced, and built for meal-prep batches. Swap in any grain you have on hand.</p>
+          </div>
+          <div class="recipe-stats">
+            <div><strong>420</strong><span>Calories</span></div>
+            <div><strong>38g</strong><span>Protein</span></div>
+            <div><strong>25</strong><span>Minutes</span></div>
+            <div><strong>4</strong><span>Servings</span></div>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="drinks">
+          <div class="card-thumb card-thumb--sand">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a smoothie blender">
+              <rect width="400" height="300" fill="#FBEACB"/>
+              <g stroke="#2F4F3E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(125,55) scale(2.4)">
+                <path d="M32 28 L68 28 L60 88 L40 88 Z"/>
+                <line x1="28" y1="28" x2="72" y2="28"/>
+              </g>
+            </svg>
+          </div>
+          <div class="recipe-card__body">
+            <span class="tag tag--citrus">Vegan</span>
+            <h3 style="font-size:1.1rem;"><a href="#">Berry-spinach recovery smoothie</a></h3>
+            <p style="font-size:0.92rem;color:var(--ink-soft);">A post-workout blend that doesn't taste like grass — frozen berries hide the greens completely.</p>
+          </div>
+          <div class="recipe-stats">
+            <div><strong>290</strong><span>Calories</span></div>
+            <div><strong>14g</strong><span>Protein</span></div>
+            <div><strong>5</strong><span>Minutes</span></div>
+            <div><strong>1</strong><span>Serving</span></div>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="lunch-dinner">
+          <div class="card-thumb card-thumb--citrus">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a sheet pan dinner">
+              <rect width="400" height="300" fill="#FFE2D6"/>
+              <g stroke="#2F4F3E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(95,95) scale(2.4)">
+                <rect x="10" y="20" width="80" height="40" rx="4"/>
+                <circle cx="30" cy="40" r="6" fill="#2F4F3E" stroke="none"/>
+                <circle cx="50" cy="35" r="6" fill="#FF5A36" stroke="none"/>
+                <circle cx="70" cy="42" r="6" fill="#F4C460" stroke="none"/>
+              </g>
+            </svg>
+          </div>
+          <div class="recipe-card__body">
+            <span class="tag tag--moss">One-pan</span>
+            <h3 style="font-size:1.1rem;"><a href="#">Sheet-pan salmon &amp; root vegetables</a></h3>
+            <p style="font-size:0.92rem;color:var(--ink-soft);">One pan, twenty minutes of hands-on time, almost no cleanup.</p>
+          </div>
+          <div class="recipe-stats">
+            <div><strong>510</strong><span>Calories</span></div>
+            <div><strong>34g</strong><span>Protein</span></div>
+            <div><strong>35</strong><span>Minutes</span></div>
+            <div><strong>2</strong><span>Servings</span></div>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="breakfast">
+          <div class="card-thumb">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of an overnight oats jar">
+              <rect width="400" height="300" fill="#E7EDE6"/>
+              <g stroke="#2F4F3E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(155,55) scale(2.4)">
+                <rect x="15" y="15" width="40" height="55" rx="3"/>
+                <line x1="15" y1="40" x2="55" y2="40"/>
+              </g>
+              <circle cx="280" cy="200" r="12" fill="#F4C460" stroke="none"/>
+            </svg>
+          </div>
+          <div class="recipe-card__body">
+            <span class="tag tag--sand">Make-ahead</span>
+            <h3 style="font-size:1.1rem;"><a href="#">Overnight oats, four ways</a></h3>
+            <p style="font-size:0.92rem;color:var(--ink-soft);">Prep five jars on Sunday, breakfast solved through Thursday.</p>
+          </div>
+          <div class="recipe-stats">
+            <div><strong>340</strong><span>Calories</span></div>
+            <div><strong>12g</strong><span>Protein</span></div>
+            <div><strong>10</strong><span>Minutes</span></div>
+            <div><strong>1</strong><span>Serving</span></div>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="breakfast">
+          <div class="card-thumb card-thumb--sand">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a stack of pancakes">
+              <rect width="400" height="300" fill="#FBEACB"/>
+              <g stroke="#2F4F3E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(110,80) scale(2.4)">
+                <ellipse cx="50" cy="68" rx="32" ry="8"/>
+                <ellipse cx="50" cy="56" rx="28" ry="7"/>
+                <ellipse cx="50" cy="45" rx="24" ry="6"/>
+              </g>
+              <circle cx="200" cy="140" r="10" fill="#FF5A36" stroke="none"/>
+            </svg>
+          </div>
+          <div class="recipe-card__body">
+            <span class="tag tag--moss">High-protein</span>
+            <h3 style="font-size:1.1rem;"><a href="#">Greek yogurt protein pancakes</a></h3>
+            <p style="font-size:0.92rem;color:var(--ink-soft);">Fluffy, slightly tangy, and a genuinely good source of protein before noon.</p>
+          </div>
+          <div class="recipe-stats">
+            <div><strong>380</strong><span>Calories</span></div>
+            <div><strong>26g</strong><span>Protein</span></div>
+            <div><strong>15</strong><span>Minutes</span></div>
+            <div><strong>2</strong><span>Servings</span></div>
+          </div>
+        </article>
+
+        <div class="ad-slot ad-slot--inline">Advertisement</div>
+
+        <article class="recipe-card" data-category="snacks">
+          <div class="card-thumb card-thumb--citrus">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a bowl of roasted chickpeas">
+              <rect width="400" height="300" fill="#FFE2D6"/>
+              <g stroke="#2F4F3E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(110,70) scale(2.4)">
+                <path d="M15 52 a35 35 0 0 0 70 0 Z"/>
+              </g>
+              <circle cx="170" cy="160" r="6" fill="#2F4F3E" stroke="none"/>
+              <circle cx="195" cy="145" r="6" fill="#2F4F3E" stroke="none"/>
+              <circle cx="215" cy="165" r="6" fill="#2F4F3E" stroke="none"/>
+              <circle cx="240" cy="150" r="6" fill="#2F4F3E" stroke="none"/>
+            </svg>
+          </div>
+          <div class="recipe-card__body">
+            <span class="tag tag--citrus">Vegan</span>
+            <h3 style="font-size:1.1rem;"><a href="#">Crispy roasted chickpea snack mix</a></h3>
+            <p style="font-size:0.92rem;color:var(--ink-soft);">A crunchy, savory alternative to chips — keeps for a week in an airtight jar.</p>
+          </div>
+          <div class="recipe-stats">
+            <div><strong>180</strong><span>Calories</span></div>
+            <div><strong>7g</strong><span>Protein</span></div>
+            <div><strong>30</strong><span>Minutes</span></div>
+            <div><strong>6</strong><span>Servings</span></div>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="drinks">
+          <div class="card-thumb">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a cup of tea with steam">
+              <rect width="400" height="300" fill="#E7EDE6"/>
+              <g stroke="#2F4F3E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(110,80) scale(2.4)">
+                <path d="M20 35 L75 35 L68 70 a5 5 0 0 1 -5 5 L32 75 a5 5 0 0 1 -5 -5 Z"/>
+                <path d="M75 40 q15 0 15 13 q0 13 -15 13"/>
+                <path d="M35 28 q5 -8 0 -16"/>
+                <path d="M50 28 q5 -8 0 -16"/>
+              </g>
+            </svg>
+          </div>
+          <div class="recipe-card__body">
+            <span class="tag tag--sand">Caffeine-free</span>
+            <h3 style="font-size:1.1rem;"><a href="#">Turmeric-ginger tea</a></h3>
+            <p style="font-size:0.92rem;color:var(--ink-soft);">A warming, anti-inflammatory blend that's easy to batch and reheat.</p>
+          </div>
+          <div class="recipe-stats">
+            <div><strong>25</strong><span>Calories</span></div>
+            <div><strong>0g</strong><span>Protein</span></div>
+            <div><strong>10</strong><span>Minutes</span></div>
+            <div><strong>1</strong><span>Serving</span></div>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="lunch-dinner">
+          <div class="card-thumb card-thumb--sand">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a pot of chili with steam">
+              <rect width="400" height="300" fill="#FBEACB"/>
+              <g stroke="#2F4F3E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(105,75) scale(2.4)">
+                <path d="M15 30 L85 30 L78 70 a5 5 0 0 1 -5 5 L27 75 a5 5 0 0 1 -5 -5 Z"/>
+                <line x1="10" y1="30" x2="90" y2="30"/>
+                <path d="M40 20 q5 -8 0 -16"/>
+                <path d="M60 20 q5 -8 0 -16"/>
+              </g>
+            </svg>
+          </div>
+          <div class="recipe-card__body">
+            <span class="tag tag--moss">High-protein</span>
+            <h3 style="font-size:1.1rem;"><a href="#">Veggie-loaded turkey chili</a></h3>
+            <p style="font-size:0.92rem;color:var(--ink-soft);">A big-batch dinner that freezes well — double it and forget about cooking next week.</p>
+          </div>
+          <div class="recipe-stats">
+            <div><strong>360</strong><span>Calories</span></div>
+            <div><strong>32g</strong><span>Protein</span></div>
+            <div><strong>45</strong><span>Minutes</span></div>
+            <div><strong>6</strong><span>Servings</span></div>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="snacks">
+          <div class="card-thumb card-thumb--citrus">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of no-bake energy bites">
+              <rect width="400" height="300" fill="#FFE2D6"/>
+              <g stroke="#2F4F3E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(110,70) scale(2.4)">
+                <circle cx="35" cy="55" r="14"/>
+                <circle cx="62" cy="48" r="16"/>
+                <circle cx="55" cy="74" r="13"/>
+              </g>
+            </svg>
+          </div>
+          <div class="recipe-card__body">
+            <span class="tag tag--sand">Make-ahead</span>
+            <h3 style="font-size:1.1rem;"><a href="#">No-bake oat &amp; peanut butter energy bites</a></h3>
+            <p style="font-size:0.92rem;color:var(--ink-soft);">Ten minutes, no oven, and a much better afternoon snack than the vending machine.</p>
+          </div>
+          <div class="recipe-stats">
+            <div><strong>110</strong><span>Calories</span></div>
+            <div><strong>4g</strong><span>Protein</span></div>
+            <div><strong>10</strong><span>Minutes</span></div>
+            <div><strong>12</strong><span>Servings</span></div>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">Lean Theory <small>THE JOURNAL</small></a>
+        <p style="margin-top:1rem; color:#B9C4BA; max-width:28ch;">Evidence-based notes on food, fitness, and feeling good — written for people, not algorithms.</p>
+      </div>
+      <div>
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="programs.html">Programs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Topics</h4>
+        <ul>
+          <li><a href="blog.html">Fitness</a></li>
+          <li><a href="blog.html">Diet</a></li>
+          <li><a href="blog.html">Health &amp; Mindset</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Lean Theory. All values approximate.</span>
+      <span><a href="privacy-policy.html">Privacy Policy</a> · Not medical advice — talk to a professional about your own situation.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

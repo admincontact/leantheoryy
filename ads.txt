@@ -1,0 +1,17 @@
+# ads.txt — Authorized Digital Sellers
+#
+# This file should live at the ROOT of your domain, e.g.:
+#   https://www.yourdomain.com/ads.txt
+# (not inside a subfolder — Google checks the root specifically)
+#
+# Once your Google AdSense account is approved, AdSense will give you
+# a line that looks like this:
+#
+#   google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+#
+# Replace the line below with that exact line from your AdSense account.
+# The number after "pub-" is your publisher ID — it should match the
+# ca-pub-XXXXXXXXXXXXXXXX value used in the AdSense script tag across
+# the site's HTML files.
+
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
