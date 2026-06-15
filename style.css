@@ -835,11 +835,106 @@ ul { margin: 0; padding: 0; }
 .ad-slot--sidebar { min-height: 250px; margin: 0; }
 
 /* ==========================================================================
+   BANNER HERO
+   Full-width image banner at the top of the homepage.
+   ========================================================================== */
+
+.banner-hero {
+  border-bottom: 1px solid var(--line);
+  background: var(--paper-dim);
+}
+
+.banner-hero img {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: cover;
+  display: block;
+}
+
+/* Visually hidden, but available to screen readers and search engines */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Featured article band (sits below the banner) */
+.featured-band {
+  padding: clamp(2.5rem, 5vw, 4rem) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.featured-band__grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: clamp(2rem, 4vw, 4rem);
+  align-items: start;
+}
+
+.featured-band h2 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  margin: 0.4em 0 0.5em;
+  max-width: 18ch;
+}
+
+/* ==========================================================================
+   QUOTE BAND
+   A full-width statement band for an original brand line.
+   ========================================================================== */
+
+.quote-band {
+  background: var(--moss);
+  color: var(--paper);
+  padding: clamp(3rem, 7vw, 5.5rem) 0;
+  text-align: center;
+}
+
+.quote-band blockquote {
+  margin: 0 auto;
+  max-width: 22ch;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.8rem, 4.5vw, 3rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.quote-band blockquote span { color: var(--sand); }
+
+.quote-band cite {
+  display: block;
+  margin-top: 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #C9D1C9;
+}
+
+.quote-band .quote-mark {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  line-height: 0.5;
+  color: var(--citrus);
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+/* ==========================================================================
    RESPONSIVE
    ========================================================================== */
 
 @media (max-width: 980px) {
   .hero-grid { grid-template-columns: 1fr; }
+  .featured-band__grid { grid-template-columns: 1fr; }
   .magazine { grid-template-columns: 1fr; }
   .card-grid { grid-template-columns: repeat(2, 1fr); }
   .post-layout { grid-template-columns: 1fr; }
